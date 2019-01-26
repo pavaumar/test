@@ -1,6 +1,5 @@
 Feature: addition 
-Scenario: addtion of 2 numbers
-Given Start to type your Given step here
-
-
-   Feature Description
+Scenario: addtion of two numbers
+    Given The number 2 and 3
+    When They are added together
+    Then The result should be 5
