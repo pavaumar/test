@@ -2,7 +2,7 @@ const assert = require('assert');
 const { Given, When, Then } = require('cucumber');
 
 
-         Given('I am login screen', function () {
+     Given('I am login screen', function () {
            console.log('given');
          });
 

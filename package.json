@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js ./features/second.feature"
+    "test": "cucumber-js ./features/multiple_data.feature"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cucumber": "^5.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }
